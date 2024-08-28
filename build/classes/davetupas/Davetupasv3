@@ -1,0 +1,48 @@
+
+
+ package davetupas;
+         
+import java.util.Scanner;
+ 
+ public class Davetupas{
+
+
+    
+   
+        
+        
+    
+     public static void main(String[] args){
+         Scanner input= new Scanner(System.in);
+         String name;
+         int Math, Science, English, Computer;
+         System.out.print("Enter your  full name :");
+         name = input.nextLine();
+         System.out.print("Math :");
+         int m = input.nextInt();
+         System.out.print("Science :");
+         int s = input.nextInt();
+          System.out.print("English :");
+          int e = input.nextInt();
+            System.out.print("Computer :");
+            int c = input.nextInt();
+            
+            System.out.println("----------------------------------------");
+            System.out.println("Grade detail :");
+            System.out.println("---------------------------------------");
+            System.out.println("Name"+name);
+            
+            System.out.println("Total Mark:"+m+s+e+c);
+            float test = (m+s+e+c)/4;
+            System.out.println(String.format("%.2f" ,test));
+            
+         
+         
+     }
+}
+ 
+  
+        
+      
+    
+
